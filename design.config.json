@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "designSha": "e5163339966b6c89f62580d917634ed80b2acb25",
+  "preset": "base",
+  "cssEntry": "io/assets/wiki.css",
+  "managedDir": "io/assets/kafka-design"
+}
