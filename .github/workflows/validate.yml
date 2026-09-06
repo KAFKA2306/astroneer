@@ -1,0 +1,56 @@
+name: validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  static-guide:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Japanese guide
+        shell: python
+        run: |
+          from html.parser import HTMLParser
+          from pathlib import Path
+
+          path = Path("index.html")
+          if not path.exists():
+              raise SystemExit("index.html is missing")
+
+          html = path.read_text(encoding="utf-8")
+          required = [
+              'lang="ja"',
+              'id="start"',
+              'id="sylvie"',
+              'id="usagi"',
+              'id="stilgar"',
+              'id="princess"',
+              'id="rogal"',
+              'id="bestefar"',
+              'id="enoki"',
+              'id="complete"',
+              'id="feeding"',
+          ]
+          missing = [item for item in required if item not in html]
+          if missing:
+              raise SystemExit(f"required guide structure missing: {missing}")
+
+          class Parser(HTMLParser):
+              pass
+
+          Parser().feed(html)
+
+          assets = list(Path(".").rglob("*.png")) + list(Path(".").rglob("*.jpg")) + list(Path(".").rglob("*.jpeg")) + list(Path(".").rglob("*.webp"))
+          if assets:
+              raise SystemExit(f"image files must stay external links: {assets}")
+
+          if html.count("astroneer.wiki.gg/wiki/") < 7:
+              raise SystemExit("official wiki source links are incomplete")
+
+          print("Japanese guide structure and external-image policy are valid.")
