@@ -13,3 +13,17 @@ h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1}
 .related{display:flex;flex-wrap:wrap;gap:var(--k-dimension-space2)}
 .related a{border:1px solid var(--k-color-border);border-radius:var(--k-dimension-radius);padding:var(--k-dimension-space1) var(--k-dimension-space2);text-decoration:none}
 footer{padding:32px 0;color:var(--k-color-muted-foreground)}
+.wiki-home{line-height:1.65}
+.wiki-home header,.wiki-home main,.wiki-home footer{width:min(1080px,calc(100% - var(--k-dimension-space4) - var(--k-dimension-space4)))}
+.wiki-home header{padding:40px 0 24px}
+.wiki-home h1{font-size:clamp(2rem,5vw,3.5rem)}
+.wiki-home .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--k-dimension-space3)}
+.wiki-home .card{display:block;background:var(--k-color-surface);border:1px solid var(--k-color-border);border-radius:var(--k-dimension-radius);padding:var(--k-dimension-space4);text-decoration:none;color:var(--k-color-foreground)}
+.wiki-home .muted{color:var(--k-color-muted-foreground)}
+.wiki-home .pill{color:var(--k-color-success);border:1px solid var(--k-color-border);border-radius:var(--k-dimension-radius);padding:var(--k-dimension-space1) var(--k-dimension-space2);font-size:var(--k-font-size-small)}
+.wiki-home #search{width:100%;min-height:var(--k-dimension-touch-target);padding:var(--k-dimension-space3);background:var(--k-color-surface);color:var(--k-color-foreground);border:1px solid var(--k-color-border);border-radius:var(--k-dimension-radius)}
+.wiki-home #articles{list-style:none;padding:0}
+.wiki-home #articles li{padding:var(--k-dimension-space2) 0;border-bottom:1px solid var(--k-color-border)}
+.wiki-category{max-width:900px;margin:40px auto;padding:0 var(--k-dimension-space4)}
+.wiki-category ul{padding-left:1.25rem}
+.wiki-category li{padding:var(--k-dimension-space2) 0;border-bottom:1px solid var(--k-color-border)}
