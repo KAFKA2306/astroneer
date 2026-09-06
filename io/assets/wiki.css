@@ -1,1 +1,15 @@
-:root{color-scheme:dark;--bg:#0a0f1a;--panel:#121a28;--text:#eef5ff;--muted:#aab8cc;--line:#2a3a52;--accent:#66d9ff;--max:900px}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI","Noto Sans JP",sans-serif;line-height:1.75;overflow-wrap:anywhere}a{color:var(--accent)}header,main,footer{width:min(var(--max),calc(100% - 32px));margin:auto}header{padding:42px 0 20px}h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1}.lead{font-size:1.08rem}.box{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px}.meta{color:var(--muted);font-size:.92rem}.related{display:flex;flex-wrap:wrap;gap:9px}.related a{border:1px solid var(--line);border-radius:999px;padding:5px 10px;text-decoration:none}footer{padding:42px 0;color:var(--muted)}
+/* kafka-design:managed-start */
+@import "./kafka-design/kafka-tokens.css";
+@import "./kafka-design/kafka-globals.css";
+@import "./kafka-design/kafka-components.css";
+/* kafka-design:managed-end */
+body{line-height:1.75;overflow-wrap:anywhere}
+header,main,footer{width:min(900px,calc(100% - var(--k-dimension-space4) - var(--k-dimension-space4)));margin:auto}
+header{padding:32px 0 var(--k-dimension-space4)}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1}
+.lead{font-size:1.08rem}
+.box{background:var(--k-color-surface);border:1px solid var(--k-color-border);border-radius:var(--k-dimension-radius);padding:var(--k-dimension-space4)}
+.meta{color:var(--k-color-muted-foreground);font-size:var(--k-font-size-small)}
+.related{display:flex;flex-wrap:wrap;gap:var(--k-dimension-space2)}
+.related a{border:1px solid var(--k-color-border);border-radius:var(--k-dimension-radius);padding:var(--k-dimension-space1) var(--k-dimension-space2);text-decoration:none}
+footer{padding:32px 0;color:var(--k-color-muted-foreground)}
