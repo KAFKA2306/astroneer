@@ -33,8 +33,12 @@ for url,marker in targets:
     for _ in range(12):
         try:
             status,body=fetch(url)
-            if status==200 and marker in body: ok=True; break
-            last=f"HTTP {status}; marker missing"
+            missing=[]
+            if marker not in body: missing.append(marker)
+            if 'data-theme="light"' not in body: missing.append('data-theme="light"')
+            if "assets/wiki.css" not in body: missing.append("assets/wiki.css")
+            if status==200 and not missing: ok=True; break
+            last=f"HTTP {status}; missing={missing}"
         except (URLError,HTTPError,TimeoutError) as e: last=repr(e)
         time.sleep(5)
     print(("OK " if ok else "FAIL ")+url)
