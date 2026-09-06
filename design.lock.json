@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "designSha": "e5163339966b6c89f62580d917634ed80b2acb25",
+  "preset": "base",
+  "configHash": "5b3896ae0445cecc21964bae7f229f9c9a6cb391fad20359406a3788cc778fdf",
+  "manifestHash": "ff83dad82c4c22423a86e8e6f60f62ebc39d1a4df95f9e3ee2434f722ccef15a",
+  "logoHash": null,
+  "installedRegistryItems": [],
+  "managedFiles": [
+    {
+      "path": "io/assets/kafka-design/kafka-tokens.css",
+      "sha256": "c90057f2c868eacb5dc41cf5252379e790521e857be0ee4c343a837a04cf7d40"
+    },
+    {
+      "path": "io/assets/kafka-design/kafka-globals.css",
+      "sha256": "2304371a0c507131844c2fbaa8e9725dedc72ba3165226ba6f2d1862812256bc"
+    },
+    {
+      "path": "io/assets/kafka-design/kafka-components.css",
+      "sha256": "6236943bda6adc5bbd82f6fee9f600b1cffd1d25bc515b64843b5b7f51fd0cde"
+    },
+    {
+      "path": "io/assets/kafka-design/portable-conformance.mjs",
+      "sha256": "5281b91caadee07e92b5876ad3547a6531229bb57107ba3bcff4be20ddc3e6d4"
+    },
+    {
+      "path": "io/assets/kafka-design/conformance-policy.mjs",
+      "sha256": "93c2f7a8f694bbe2092237e73444f050062a5ad40dedf4b298e5211743144d21"
+    }
+  ],
+  "integration": {
+    "cssEntry": "io/assets/wiki.css",
+    "blockHash": "66e4553083f33b78aa01addff45225bef0fd94e742bc0c46994716f6f8da01a6"
+  }
+}
