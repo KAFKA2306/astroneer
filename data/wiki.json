@@ -415,136 +415,136 @@
       "slug": "planets",
       "title": "惑星",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Planets",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Sylva系の7天体、Sun Room、GlitchwalkersのAeoluzを含む現在の主要天体・移動先をまとめます。"
     },
     {
       "slug": "sylva",
       "title": "Sylva",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Sylva",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "開始惑星。SphaleriteとMalachite、Hydrogen 75 PPU、Nitrogen 100 PPUを利用でき、Gateway Chamberは5 U/sで起動します。"
     },
     {
       "slug": "desolo",
       "title": "Desolo",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Desolo",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Sylvaの小型衛星。WolframiteとSphaleriteを得られ、大気はありません。Gateway Chamberは8 U/sです。"
     },
     {
       "slug": "calidor",
       "title": "Calidor",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Calidor",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "乾燥惑星。MalachiteとWolframite、Hydrogen 50 PPU、Sulfur 100 PPUを利用でき、Gateway Chamberは12 U/sです。"
     },
     {
       "slug": "vesania",
       "title": "Vesania",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Vesania",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Exotic Planet。LithiumとTitanite、Hydrogen・Argon・Nitrogenを利用でき、Gateway Chamberは16 U/sです。"
     },
     {
       "slug": "novus",
       "title": "Novus",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Novus",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Vesaniaの衛星。HematiteとLithium、Hydrogen 25 PPU、Methane 75 PPUを利用でき、Gateway Chamberは21 U/sです。"
     },
     {
       "slug": "glacio",
       "title": "Glacio",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Glacio",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "氷雪惑星。TitaniteとHematite、Argon 100 PPUを利用でき、Gateway Chamberは26 U/sです。"
     },
     {
       "slug": "atrox",
       "title": "Atrox",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Atrox",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "高難度のRadiated Planet。主要鉱石はなく、Helium・Methane・Nitrogen・Sulfurを採取でき、Gateway Chamberは30 U/sです。"
     },
     {
       "slug": "missions",
       "title": "ミッション",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Mission",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Mission Logはゲーム進行を案内し、Bytes、Schematics、Itemsなどを報酬として与えます。このWikiでは相互リンクに必要な主要進行ノードだけを構造化します。"
     },
     {
       "slug": "achievements",
       "title": "実績",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Achievements",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "実績とその解除条件への入口です。件数は上流ページの更新遅れがあり得るため固定値を正本化しません。"
     },
     {
       "slug": "xenobiology-lab",
       "title": "ゼノバイオロジー・ラボ",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Xenobiology_Lab",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "ESS TritonのXenobiology Lab残骸。Strange ObjectからSylvaに出現し、Galastropod関連Missionの解析拠点になります。"
     },
     {
       "slug": "terrarium",
       "title": "テラリウム",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Empty_Terrarium",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Galastropodを呼び出し・捕獲するためのTerrarium。惑星ごとにSoil、Resource、Seedを入れて完成させます。"
     },
     {
       "slug": "gateway-chambers",
       "title": "Gateway Chamber",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Gateway_Chamber",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "各惑星・衛星の地表にあるGateway Networkのノード。一定電力を30秒供給して起動します。"
     },
     {
       "slug": "planetary-cores",
       "title": "惑星コア",
       "category": "world",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Gateway_Engine",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "惑星コアのGateway Engine。地表Gatewayを少なくとも1つ起動後、惑星固有Resourceを投入して有効化します。"
     },
     {
       "slug": "unidentified-satellite",
       "title": "Unidentified Satellite",
       "category": "world",
-      "status": "planned",
-      "source": "https://astroneer.wiki.gg/wiki/Unidentified_Satellite",
-      "last_verified": null,
-      "summary": ""
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Gateway_Portal",
+      "last_verified": "2026-09-06",
+      "summary": "Gateway Portalとも呼ばれる太陽上空の構造。Gateway Engine起動後に到達でき、7惑星のGeometric Triptychで本編Gateway進行を完了します。"
     },
     {
       "slug": "widgets",
@@ -581,6 +581,150 @@
       "source": "https://astroneer.wiki.gg/wiki/Vehicles",
       "last_verified": "2026-09-06",
       "summary": "資源・Research Item の輸送、地表探索、惑星間移動に使う乗り物の総称です。"
+    },
+    {
+      "slug": "compass",
+      "title": "コンパス",
+      "category": "systems",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Compass",
+      "last_verified": "2026-09-06",
+      "summary": "惑星上の方位とBeacon、Gateway、Shell、車両などのNavpointを表示するナビゲーション機能です。"
+    },
+    {
+      "slug": "storms",
+      "title": "ストーム",
+      "category": "systems",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Storms",
+      "last_verified": "2026-09-06",
+      "summary": "惑星上で発生するStormの総称。特にAeoluzではAlpha・Delta・ZetaのGlitched Stormが進行要素になります。"
+    },
+    {
+      "slug": "collectibles",
+      "title": "収集物",
+      "category": "items",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Collectibles",
+      "last_verified": "2026-09-06",
+      "summary": "Research ItemやRare Objectなどの収集対象への入口です。上流Collectiblesページ自体がout-of-date警告付きのため、古い件数は正本化しません。"
+    },
+    {
+      "slug": "discoveries",
+      "title": "発見物・残骸",
+      "category": "items",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Discoveries",
+      "last_verified": "2026-09-06",
+      "summary": "惑星にランダム生成されるWreck、Debris、Gateway Network、Abandoned Backpackなどの探索対象です。"
+    },
+    {
+      "slug": "sun-room",
+      "title": "Sun Room",
+      "category": "world",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Sun_Room",
+      "last_verified": "2026-09-06",
+      "summary": "太陽内部にあるAstroneer Training ProgramのControl Center。Awakening MissionのBehind the Curtain以降に移動可能になります。"
+    },
+    {
+      "slug": "aeoluz",
+      "title": "Aeoluz",
+      "category": "world",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Aeoluz",
+      "last_verified": "2026-09-06",
+      "summary": "Glitchwalkers DLCのGlitch Planet。地域ごとに資源が変化し、全Gasを100 PPUで利用でき、Glitched StormとFirewallが進行の中心です。"
+    },
+    {
+      "slug": "awakening",
+      "title": "Awakening",
+      "category": "world",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Mission",
+      "last_verified": "2026-09-06",
+      "summary": "Awakening UpdateのMission群。EVAと協力し、Sun Roomと各惑星のMemoryを巡ってChronosの記録を復元します。"
+    },
+    {
+      "slug": "glitchwalkers",
+      "title": "Glitchwalkers",
+      "category": "world",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Patch_1.32.9",
+      "last_verified": "2026-09-06",
+      "summary": "Glitchwalkers拡張の進行。AeoluzでStorm Data、Counterhack Key、Hacked Gatewayを使い、Firewallを突破します。"
+    },
+    {
+      "slug": "megatech",
+      "title": "Megatech",
+      "category": "world",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Patch_1.36.41",
+      "last_verified": "2026-09-06",
+      "summary": "2025年11月20日のMegatech 1.36.41で追加された最新大型進行。DLS、Intermodal Terminal、Megastructuresと関連Missionを含みます。"
+    },
+    {
+      "slug": "sylvie",
+      "title": "Sylvie",
+      "category": "world",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Sylvie",
+      "last_verified": "2026-09-06",
+      "summary": "SylvieはSylvaのGalastropod。Terrariumを完成させて捕獲し、Seedを与えると固有能力を使えます。"
+    },
+    {
+      "slug": "usagi",
+      "title": "Usagi",
+      "category": "world",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Usagi",
+      "last_verified": "2026-09-06",
+      "summary": "UsagiはDesoloのGalastropod。Terrariumを完成させて捕獲し、Seedを与えると固有能力を使えます。"
+    },
+    {
+      "slug": "stilgar",
+      "title": "Stilgar",
+      "category": "world",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Stilgar",
+      "last_verified": "2026-09-06",
+      "summary": "StilgarはCalidorのGalastropod。Terrariumを完成させて捕獲し、Seedを与えると固有能力を使えます。"
+    },
+    {
+      "slug": "princess",
+      "title": "Princess",
+      "category": "world",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Princess",
+      "last_verified": "2026-09-06",
+      "summary": "PrincessはVesaniaのGalastropod。Terrariumを完成させて捕獲し、Seedを与えると固有能力を使えます。"
+    },
+    {
+      "slug": "rogal",
+      "title": "Rogal",
+      "category": "world",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Rogal",
+      "last_verified": "2026-09-06",
+      "summary": "RogalはNovusのGalastropod。Terrariumを完成させて捕獲し、Seedを与えると固有能力を使えます。"
+    },
+    {
+      "slug": "bestefar",
+      "title": "Bestefar",
+      "category": "world",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Bestefar",
+      "last_verified": "2026-09-06",
+      "summary": "BestefarはGlacioのGalastropod。Terrariumを完成させて捕獲し、Seedを与えると固有能力を使えます。"
+    },
+    {
+      "slug": "enoki",
+      "title": "Enoki",
+      "category": "world",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Enoki",
+      "last_verified": "2026-09-06",
+      "summary": "EnokiはAtroxのGalastropod。Terrariumを完成させて捕獲し、Seedを与えると固有能力を使えます。"
     }
   ]
 }

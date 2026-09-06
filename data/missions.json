@@ -1,0 +1,290 @@
+{
+  "source": "https://astroneer.wiki.gg/wiki/Mission",
+  "scope_note": "完全な全Mission表はOfficial Astroneer Wikiを正本とする。このファイルはこの日本語Wiki内で相互リンク・進行説明に使う主要ノードだけを構造化する。",
+  "last_verified": "2026-09-06",
+  "missions": [
+    {
+      "slug": "planetfall",
+      "name": "Planetfall",
+      "objectives": [
+        "Arrive on Sylva"
+      ],
+      "description": "Survive the landing on Sylva",
+      "rewards": [
+        "Oxygenator x1"
+      ],
+      "prerequisites": []
+    },
+    {
+      "slug": "arm-yourself",
+      "name": "Arm Yourself!",
+      "objectives": [
+        "Print an Auto Arm",
+        "Store a resource with an Auto Arm"
+      ],
+      "description": "Automate some of your work",
+      "rewards": [
+        "Large Extended Platform x1",
+        "Schematic: Large Extended Platform"
+      ],
+      "prerequisites": [
+        "Smelteringly Hot"
+      ]
+    },
+    {
+      "slug": "unearthed",
+      "name": "Unearthed",
+      "objectives": [
+        "Print an Extractor",
+        "Extract a Resource Nugget"
+      ],
+      "description": "Extractors automatically dig up resource nuggets",
+      "rewards": [
+        "Large Resource Canister x1"
+      ],
+      "prerequisites": [
+        "Stuffed Storage"
+      ]
+    },
+    {
+      "slug": "lights-in-distance",
+      "name": "Lights in the Distance",
+      "objectives": [
+        "Discover a Gateway Chamber"
+      ],
+      "description": "Locate one of the strange structures emitting a pillar of light",
+      "rewards": [
+        "Bytes x500"
+      ],
+      "prerequisites": [
+        "Astroneering Bas(e)ics"
+      ]
+    },
+    {
+      "slug": "well-thats-weird",
+      "name": "Well, That's Weird",
+      "objectives": [
+        "Activate a Gateway Chamber"
+      ],
+      "description": "Find a way to power the strange structure",
+      "rewards": [
+        "Bytes x1,000"
+      ],
+      "prerequisites": [
+        "Lights in the Distance"
+      ]
+    },
+    {
+      "slug": "core-concept",
+      "name": "A Core Concept",
+      "objectives": [
+        "Activate a Planet's Core"
+      ],
+      "description": "Dig deep, find the planet core, and figure out how turn it on",
+      "rewards": [
+        "QT-RTG x1",
+        "Bytes x2,000"
+      ],
+      "prerequisites": [
+        "Well, That's Weird"
+      ]
+    },
+    {
+      "slug": "multi-core",
+      "name": "Multi-Core Processing",
+      "objectives": [
+        "Activate the Cores of Every Planet"
+      ],
+      "description": "Activate at least one Gateway Chamber and the Core on every base-game planet",
+      "rewards": [
+        "QT-RTG x1",
+        "Bytes x10,000"
+      ],
+      "prerequisites": [
+        "A Core Concept"
+      ]
+    },
+    {
+      "slug": "something-out-there",
+      "name": "There's Something Out There",
+      "objectives": [
+        "Investigate the Unidentified Satellite"
+      ],
+      "description": "Visit the Unidentified Satellite revealed in the solar system",
+      "rewards": [
+        "Bytes x2,500"
+      ],
+      "prerequisites": [
+        "A Core Concept"
+      ]
+    },
+    {
+      "slug": "looking-glass",
+      "name": "Through the Looking Glass",
+      "objectives": [
+        "Activate the Unidentified Satellite"
+      ],
+      "description": "Place the Geometric Triptych from each planet on the Unidentified Satellite",
+      "rewards": [
+        "QT-RTG x3",
+        "Bytes x5,000"
+      ],
+      "prerequisites": [
+        "There's Something Out There"
+      ]
+    },
+    {
+      "slug": "bait-switch",
+      "name": "Bait & Switch",
+      "objectives": [
+        "Gather Sphalerite x3"
+      ],
+      "description": "Samples of Sphalerite are needed to initiate local fauna examinations",
+      "rewards": [
+        "Strange Object x1"
+      ],
+      "prerequisites": [
+        "Smelteringly Hot"
+      ]
+    },
+    {
+      "slug": "strange-object",
+      "name": "Strange Object",
+      "objectives": [
+        "Place and activate the Strange Object on the surface of Sylva"
+      ],
+      "description": "Deploy the Xenobiology Lab trigger at a safe distance from the launchpad",
+      "rewards": [
+        "Power Cells x1"
+      ],
+      "prerequisites": [
+        "Bait & Switch"
+      ]
+    },
+    {
+      "slug": "fresh-air",
+      "name": "A Breath of Fresh Air",
+      "objectives": [
+        "Install Oxygenator in Xenobiology Lab on Sylva"
+      ],
+      "description": "Re-oxygenate the Xenobiology Lab wreck",
+      "rewards": [
+        "Bytes x250"
+      ],
+      "prerequisites": [
+        "Strange Object"
+      ]
+    },
+    {
+      "slug": "all-together",
+      "name": "All Together Now",
+      "objectives": [
+        "Use Data Log to initiate Sonic Array",
+        "Attach all Galastropods to Sonic Array"
+      ],
+      "description": "Send the Xenobiology Lab discoveries through the Sonic Array",
+      "rewards": [
+        "QT-RTG x2",
+        "Lab Suit"
+      ],
+      "prerequisites": [
+        "Final Glacio and Atrox Galastropod verification missions"
+      ]
+    },
+    {
+      "slug": "final-entry",
+      "name": "Final Entry",
+      "objectives": [
+        "Use Data Log to view Dr. Iness's new entry",
+        "Keep all Galastropods on Sonic Array"
+      ],
+      "description": "Read the encrypted Xenobiology Lab message",
+      "rewards": [
+        "RTG x1"
+      ],
+      "prerequisites": [
+        "All Together Now"
+      ]
+    },
+    {
+      "slug": "help",
+      "name": "Help",
+      "objectives": [
+        "Track this Mission to complete it"
+      ],
+      "description": "Start the Awakening EVA mission chain",
+      "rewards": [
+        "Fault Finder x1"
+      ],
+      "prerequisites": [
+        "Composite Perfection",
+        "Final Entry",
+        "Training Complete"
+      ]
+    },
+    {
+      "slug": "controlled-firewall",
+      "name": "Controlled Fire(wall)",
+      "objectives": [
+        "Find and Use a Curious Item"
+      ],
+      "description": "Disable the firewall so the Sun Room control room can be accessed",
+      "rewards": [],
+      "prerequisites": [
+        "I Know You Like Missions"
+      ]
+    },
+    {
+      "slug": "behind-curtain",
+      "name": "Behind the Curtain",
+      "objectives": [
+        "Travel to the Sun"
+      ],
+      "description": "Meet EVA in the Sun Room control room",
+      "rewards": [],
+      "prerequisites": [
+        "Controlled Fire(wall)"
+      ]
+    },
+    {
+      "slug": "time-out",
+      "name": "Time Out",
+      "objectives": [
+        "Access Sun Room Log"
+      ],
+      "description": "Reboot the control room and continue Awakening",
+      "rewards": [
+        "Large Shuttle x1",
+        "Solid-Fuel Thruster x1",
+        "Schematic: Large Shuttle"
+      ],
+      "prerequisites": [
+        "Behind the Curtain"
+      ]
+    },
+    {
+      "slug": "glitchwalkers",
+      "name": "GLITCHWALKERS",
+      "objectives": [
+        "Complete mission A Core Concept"
+      ],
+      "description": "Entry requirement for the Glitchwalkers journey after purchasing the expansion",
+      "rewards": [],
+      "prerequisites": [
+        "Purchase Astroneer: Glitchwalkers"
+      ]
+    },
+    {
+      "slug": "megatech",
+      "name": "MEGATECH",
+      "objectives": [
+        "Complete the listed base-game prerequisite missions"
+      ],
+      "description": "Entry point for Megatech systems and megastructure missions",
+      "rewards": [],
+      "prerequisites": [
+        "Purchase Astroneer: Megatech"
+      ]
+    }
+  ]
+}
