@@ -42,7 +42,12 @@ def main():
         if a["status"] not in {"planned","implemented"}: errors.append(f'bad status: {a["slug"]}')
         if a["status"]=="implemented":
             p=IO/"wiki"/a["slug"]/"index.html"
-            if not p.exists(): errors.append(f'implemented file missing: {a["slug"]}')
+            if not p.exists():
+                errors.append(f'implemented file missing: {a["slug"]}')
+            else:
+                page_text=p.read_text(encoding="utf-8")
+                if a["source"] not in page_text: errors.append(f'implemented source not rendered: {a["slug"]}')
+                if a.get("last_verified") and a["last_verified"] not in page_text: errors.append(f'implemented last_verified not rendered: {a["slug"]}')
             if not a.get("last_verified"): errors.append(f'implemented last_verified missing: {a["slug"]}')
     expected={a["slug"] for a in arts if a["status"]=="implemented"}
     actual={p.parent.name for p in (IO/"wiki").glob("*/index.html")} if (IO/"wiki").exists() else set()
