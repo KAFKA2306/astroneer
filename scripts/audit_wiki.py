@@ -61,13 +61,12 @@ def main():
     for p in htmls:
         page_text=p.read_text(encoding="utf-8")
         rel=p.relative_to(ROOT)
-        if not re.search(r'<html\\b[^>]*\\bdata-theme=["\\\']light["\\\']', page_text):
+        if not re.search(r"<html\b[^>]*\bdata-theme=['\"]light['\"]", page_text):
             errors.append(f"light theme policy missing: {rel}")
-        if re.search(r'<style\\b|\\sstyle=["\\\']', page_text, re.I):
+        if re.search(r"<style\b|\sstyle=['\"]", page_text, re.I):
             errors.append(f"inline style bypasses canonical design: {rel}")
         if "assets/wiki.css" not in page_text:
             errors.append(f"canonical wiki.css missing: {rel}")
-    for p in htmls:
         for href in internal_links(p):
             t=resolve_link(p,href)
             if t is not None and ROOT in t.parents and not t.exists():
