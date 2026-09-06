@@ -59,6 +59,33 @@ def main():
             if t is not None and ROOT in t.parents and not t.exists():
                 broken.append(f"{p.relative_to(ROOT)} -> {href}")
     if broken: errors += ["broken internal link: "+x for x in broken]
+    # Rendered navigation must be a derivative of the manifest, not a second authority.
+    top = IO / "index.html"
+    top_text = top.read_text(encoding="utf-8") if top.exists() else ""
+    top_slugs = re.findall(r'data-slug=["\\\']([^"\\\']+)["\\\']', top_text)
+    manifest_slugs = set(slugs)
+    if set(top_slugs) != manifest_slugs:
+        errors.append("top article list is out of sync with manifest")
+    orphan = 0
+    for c in m["categories"]:
+        page = IO / "category" / c["slug"] / "index.html"
+        if not page.exists():
+            errors.append(f'category page missing: {c["slug"]}')
+            continue
+        rendered = set(re.findall(r'data-slug=["\\\']([^"\\\']+)["\\\']', page.read_text(encoding="utf-8")))
+        expected_cat = {a["slug"] for a in arts if a["category"] == c["slug"]}
+        if rendered != expected_cat:
+            errors.append(f'category page out of sync: {c["slug"]}')
+    for a in arts:
+        if a["status"] == "implemented":
+            href = f'wiki/{a["slug"]}/'
+            cat_href = f'../../wiki/{a["slug"]}/'
+            cat_page = IO / "category" / a["category"] / "index.html"
+            if href not in top_text or cat_href not in cat_page.read_text(encoding="utf-8"):
+                orphan += 1
+    if orphan:
+        errors.append(f"orphan implemented articles: {orphan}")
+
     implemented=sum(a["status"]=="implemented" for a in arts)
     total=len(arts)
     missing=total-implemented
@@ -66,7 +93,7 @@ def main():
     unverified=sum(a["status"]=="planned" or not a.get("last_verified") for a in arts)
     print(json.dumps({
       "total":total,"implemented":implemented,"missing":missing,
-      "orphan":0,"broken_internal_links":len(broken),
+      "orphan":orphan,"broken_internal_links":len(broken),
       "missing_sources":missing_sources,"unverified_required_fields":unverified
     }, ensure_ascii=False))
     if errors:
