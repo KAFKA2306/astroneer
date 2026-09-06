@@ -1,0 +1,182 @@
+{
+  "last_verified": "2026-09-06",
+  "source": "https://astroneer.wiki.gg/wiki/Planets",
+  "planets": [
+    {
+      "slug": "sylva",
+      "title": "Sylva",
+      "type": "Terran",
+      "resources": [
+        "Sphalerite",
+        "Malachite"
+      ],
+      "gases": [
+        "Hydrogen 75 PPU",
+        "Nitrogen 100 PPU"
+      ],
+      "gateway_chambers": 6,
+      "gateway_power": "5 U/s × 30秒",
+      "core_resource": "Quartz",
+      "galastropod": "sylvie",
+      "hazards": [
+        "危険植物",
+        "落下・洞窟"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Sylva"
+    },
+    {
+      "slug": "desolo",
+      "title": "Desolo",
+      "type": "Terran Moon",
+      "resources": [
+        "Wolframite",
+        "Sphalerite"
+      ],
+      "gases": [],
+      "gateway_chambers": 2,
+      "gateway_power": "8 U/s × 30秒",
+      "core_resource": "Zinc",
+      "galastropod": "usagi",
+      "hazards": [
+        "クレーター",
+        "酸素供給なし"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Desolo"
+    },
+    {
+      "slug": "calidor",
+      "title": "Calidor",
+      "type": "Arid",
+      "resources": [
+        "Malachite",
+        "Wolframite"
+      ],
+      "gases": [
+        "Hydrogen 50 PPU",
+        "Sulfur 100 PPU"
+      ],
+      "gateway_chambers": 6,
+      "gateway_power": "12 U/s × 30秒",
+      "core_resource": "Explosive Powder",
+      "galastropod": "stilgar",
+      "hazards": [
+        "乾燥地形",
+        "危険植物"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Calidor"
+    },
+    {
+      "slug": "vesania",
+      "title": "Vesania",
+      "type": "Exotic",
+      "resources": [
+        "Lithium",
+        "Titanite"
+      ],
+      "gases": [
+        "Hydrogen 100 PPU",
+        "Argon 50 PPU",
+        "Nitrogen 75 PPU"
+      ],
+      "gateway_chambers": 6,
+      "gateway_power": "16 U/s × 30秒",
+      "core_resource": "Graphene",
+      "galastropod": "princess",
+      "hazards": [
+        "密集した危険植物",
+        "急峻な地形"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Vesania"
+    },
+    {
+      "slug": "novus",
+      "title": "Novus",
+      "type": "Exotic Moon",
+      "resources": [
+        "Hematite",
+        "Lithium"
+      ],
+      "gases": [
+        "Hydrogen 25 PPU",
+        "Methane 75 PPU"
+      ],
+      "gateway_chambers": 2,
+      "gateway_power": "21 U/s × 30秒",
+      "core_resource": "Silicone",
+      "galastropod": "rogal",
+      "hazards": [
+        "Geyser",
+        "危険植物"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Novus"
+    },
+    {
+      "slug": "glacio",
+      "title": "Glacio",
+      "type": "Tundra",
+      "resources": [
+        "Titanite",
+        "Hematite"
+      ],
+      "gases": [
+        "Argon 100 PPU"
+      ],
+      "gateway_chambers": 6,
+      "gateway_power": "26 U/s × 30秒",
+      "core_resource": "Diamond",
+      "galastropod": "bestefar",
+      "hazards": [
+        "Popcoral",
+        "段差の大きい氷雪地形"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Glacio"
+    },
+    {
+      "slug": "atrox",
+      "title": "Atrox",
+      "type": "Radiated",
+      "resources": [],
+      "gases": [
+        "Helium 25 PPU",
+        "Methane 100 PPU",
+        "Nitrogen 50 PPU",
+        "Sulfur 75 PPU"
+      ],
+      "gateway_chambers": 6,
+      "gateway_power": "30 U/s × 30秒",
+      "core_resource": "Hydrogen",
+      "galastropod": "enoki",
+      "hazards": [
+        "多数の危険植物",
+        "低いSolar/Wind"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Atrox"
+    },
+    {
+      "slug": "aeoluz",
+      "title": "Aeoluz",
+      "type": "Glitch",
+      "resources": [
+        "地域により全Resource"
+      ],
+      "gases": [
+        "Hydrogen 100 PPU",
+        "Argon 100 PPU",
+        "Methane 100 PPU",
+        "Nitrogen 100 PPU",
+        "Sulfur 100 PPU",
+        "Helium 100 PPU"
+      ],
+      "gateway_chambers": 3,
+      "gateway_power": "Hacked Gatewayごとに修復・Counterhack・電力が必要",
+      "core_resource": "N/A",
+      "galastropod": null,
+      "hazards": [
+        "Alpha/Delta/Zeta Storm",
+        "Firewalls",
+        "Glitched terrain"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Aeoluz"
+    }
+  ]
+}

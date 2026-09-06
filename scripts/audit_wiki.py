@@ -91,6 +91,36 @@ def main():
     if orphan:
         errors.append(f"orphan implemented articles: {orphan}")
 
+    # World/progression canonical data checks.
+    planets_data=json.loads((ROOT/"data"/"planets.json").read_text(encoding="utf-8"))
+    planet_slugs={p["slug"] for p in planets_data["planets"]}
+    required_planets={"sylva","desolo","calidor","vesania","novus","glacio","atrox","aeoluz"}
+    if planet_slugs != required_planets: errors.append("planet canonical set mismatch")
+    for p in planets_data["planets"]:
+        for key in ("resources","gases","gateway_chambers","gateway_power","core_resource","hazards","source"):
+            if key not in p: errors.append(f'planet missing {key}: {p["slug"]}')
+        if not (IO/"wiki"/p["slug"]/"index.html").exists(): errors.append(f'planet page missing: {p["slug"]}')
+
+    gal_data=json.loads((ROOT/"data"/"galastropods.json").read_text(encoding="utf-8"))
+    gal_slugs={g["slug"] for g in gal_data["galastropods"]}
+    required_gals={"sylvie","usagi","stilgar","princess","rogal","bestefar","enoki"}
+    if gal_slugs != required_gals: errors.append("galastropod canonical set mismatch")
+    for g in gal_data["galastropods"]:
+        for key in ("planet","terrarium","ability","favorites","source"):
+            if key not in g: errors.append(f'galastropod missing {key}: {g["slug"]}')
+        if not (IO/"wiki"/g["slug"]/"index.html").exists(): errors.append(f'galastropod page missing: {g["slug"]}')
+
+    mission_data=json.loads((ROOT/"data"/"missions.json").read_text(encoding="utf-8"))
+    mission_slugs=[]
+    for mission in mission_data["missions"]:
+        mission_slugs.append(mission["slug"])
+        for key in ("name","objectives","description","rewards","prerequisites"):
+            if key not in mission: errors.append(f'mission missing {key}: {mission["slug"]}')
+    if len(mission_slugs) != len(set(mission_slugs)): errors.append("duplicate mission slugs")
+    mission_html=(IO/"wiki"/"missions"/"index.html").read_text(encoding="utf-8")
+    rendered=set(re.findall(r'data-mission=["\\\']([^"\\\']+)["\\\']', mission_html))
+    if rendered != set(mission_slugs): errors.append("missions page is out of sync with data/missions.json")
+
     implemented=sum(a["status"]=="implemented" for a in arts)
     total=len(arts)
     missing=total-implemented

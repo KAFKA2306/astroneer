@@ -1,0 +1,114 @@
+{
+  "last_verified": "2026-09-06",
+  "source": "https://astroneer.wiki.gg/wiki/Galastropods",
+  "galastropods": [
+    {
+      "slug": "sylvie",
+      "title": "Sylvie",
+      "planet": "sylva",
+      "terrarium": [
+        "Soil",
+        "Zinc",
+        "Bouncevine Seed"
+      ],
+      "ability": "周囲を照らす",
+      "favorites": [
+        "Mutant Hissbine Seed"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Sylvie"
+    },
+    {
+      "slug": "usagi",
+      "title": "Usagi",
+      "planet": "desolo",
+      "terrarium": [
+        "Soil",
+        "Tungsten",
+        "Daggeroot Seed"
+      ],
+      "ability": "Compassで周辺の特定探索対象を見つけやすくする",
+      "favorites": [
+        "Mutant Hissbine Seed"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Usagi"
+    },
+    {
+      "slug": "stilgar",
+      "title": "Stilgar",
+      "planet": "calidor",
+      "terrarium": [
+        "Soil",
+        "Copper",
+        "Wheezeweed Seed"
+      ],
+      "ability": "酸素を供給する",
+      "favorites": [
+        "Mutant Spiny Attactus Seed",
+        "Mutant Volatile Attactus Seed"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Stilgar"
+    },
+    {
+      "slug": "princess",
+      "title": "Princess",
+      "planet": "vesania",
+      "terrarium": [
+        "Soil",
+        "Lithium",
+        "Lashleaf Seed"
+      ],
+      "ability": "バックパック装着中、窒息以外のダメージから保護する",
+      "favorites": [
+        "Mutant Cataplant Seed"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Princess"
+    },
+    {
+      "slug": "rogal",
+      "title": "Rogal",
+      "planet": "novus",
+      "terrarium": [
+        "Soil",
+        "Iron",
+        "Thistlewhip Seed"
+      ],
+      "ability": "電力を生成する",
+      "favorites": [
+        "Mutant Noxious Cataplant Seed",
+        "Mutant Volatile Cataplant Seed"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Rogal"
+    },
+    {
+      "slug": "bestefar",
+      "title": "Bestefar",
+      "planet": "glacio",
+      "terrarium": [
+        "Soil",
+        "Argon",
+        "Popcoral Seed"
+      ],
+      "ability": "Terrain Toolの掘削幅・速度・強度を強化する",
+      "favorites": [
+        "Mutant Boomalloon Seed"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Bestefar"
+    },
+    {
+      "slug": "enoki",
+      "title": "Enoki",
+      "planet": "atrox",
+      "terrarium": [
+        "Soil",
+        "Helium",
+        "Spinelily Seed"
+      ],
+      "ability": "走行・ジャンプ・重量物運搬時の移動を強化する",
+      "favorites": [
+        "Mutant Noxious Spewflower Seed",
+        "Mutant Elegant Spewflower Seed"
+      ],
+      "source": "https://astroneer.wiki.gg/wiki/Enoki"
+    }
+  ]
+}
