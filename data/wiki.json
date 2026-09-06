@@ -1,0 +1,550 @@
+{
+  "schema_version": 1,
+  "production_url": "https://kafka2306.github.io/astroneer/io/",
+  "categories": [
+    {
+      "slug": "systems",
+      "title": "ゲームシステム",
+      "description": "製造、研究、電力、自動化、操作などの基本システム。"
+    },
+    {
+      "slug": "items",
+      "title": "アイテム",
+      "description": "資源、設備、乗り物、電源、保管、ツール。"
+    },
+    {
+      "slug": "player",
+      "title": "プレイヤー",
+      "description": "バックパック、地形ツール、酸素、死亡、外見。"
+    },
+    {
+      "slug": "world",
+      "title": "ワールド・進行",
+      "description": "惑星、ミッション、Gateway、Xenobiology、Galastropods。"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "galastropods",
+      "title": "Galastropod 日本語攻略",
+      "category": "world",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Galastropods",
+      "last_verified": "2026-09-06",
+      "summary": "Xenobiology Lab の開始から7匹のGalastropod捕獲、テラリウム、能力までをまとめた攻略。"
+    },
+    {
+      "slug": "crafting",
+      "title": "製造",
+      "category": "systems",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Crafting",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "research",
+      "title": "研究",
+      "category": "systems",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Research",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "power",
+      "title": "電力",
+      "category": "systems",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Power",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "item-size",
+      "title": "アイテムサイズ",
+      "category": "systems",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Item_Size",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "slots",
+      "title": "スロット",
+      "category": "systems",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Attachment_Slot",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "hazards",
+      "title": "危険源",
+      "category": "systems",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Hazards",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "creative-mode",
+      "title": "クリエイティブモード",
+      "category": "systems",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Creative_Mode",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "automation",
+      "title": "自動化",
+      "category": "systems",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Automation",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "terrain",
+      "title": "地形",
+      "category": "systems",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Terrain",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "controls",
+      "title": "操作",
+      "category": "systems",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Controls",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "multiplayer",
+      "title": "マルチプレイヤー",
+      "category": "systems",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Multiplayer",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "backpack",
+      "title": "バックパック",
+      "category": "player",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Backpack",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "terrain-tool",
+      "title": "地形ツール",
+      "category": "player",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Terrain_Tool",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "oxygen",
+      "title": "酸素",
+      "category": "player",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Oxygen",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "death",
+      "title": "死亡",
+      "category": "player",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Death",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "customization",
+      "title": "カスタマイズ",
+      "category": "player",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Customization",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "resources",
+      "title": "資源",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Resources",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "modules",
+      "title": "モジュール",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Modules",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "printers",
+      "title": "プリンター",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Printers",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "smelting-furnace",
+      "title": "溶鉱炉",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Smelting_Furnace",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "soil-centrifuge",
+      "title": "土砂遠心分離機",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Soil_Centrifuge",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "chemistry-lab",
+      "title": "化学実験室",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Chemistry_Lab",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "atmospheric-condenser",
+      "title": "大気凝縮装置",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Atmospheric_Condenser",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "research-chamber",
+      "title": "研究分析台",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Research_Chamber",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "trade-platform",
+      "title": "交易プラットフォーム",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Trade_Platform",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "shredders",
+      "title": "シュレッダー",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Shredders",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "auto-extractor",
+      "title": "自動抽出装置",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Auto_Extractor",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "auto-arm",
+      "title": "自動アーム",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Auto_Arm",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "platforms",
+      "title": "プラットフォーム",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Platforms",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "storage",
+      "title": "ストレージ",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Storages",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "tractor",
+      "title": "トラクター",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Tractor",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "trailer",
+      "title": "トレーラー",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Trailer",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "buggy",
+      "title": "バギー",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Buggy",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "medium-rover",
+      "title": "中型ローバー",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Medium_Rover",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "large-rover",
+      "title": "大型ローバー",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Large_Rover",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "shuttles",
+      "title": "シャトル",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Shuttles",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "batteries",
+      "title": "バッテリー",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Batteries",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "generators",
+      "title": "発電機",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Generators",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "solar",
+      "title": "太陽光発電",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Solar_Panels",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "wind",
+      "title": "風力発電",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Wind_Turbines",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "canisters",
+      "title": "キャニスター",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Canisters",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "consumables",
+      "title": "消耗品",
+      "category": "items",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Consumables",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "planets",
+      "title": "惑星",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Planets",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "sylva",
+      "title": "Sylva",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Sylva",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "desolo",
+      "title": "Desolo",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Desolo",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "calidor",
+      "title": "Calidor",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Calidor",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "vesania",
+      "title": "Vesania",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Vesania",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "novus",
+      "title": "Novus",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Novus",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "glacio",
+      "title": "Glacio",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Glacio",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "atrox",
+      "title": "Atrox",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Atrox",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "missions",
+      "title": "ミッション",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Mission",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "achievements",
+      "title": "実績",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Achievements",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "xenobiology-lab",
+      "title": "ゼノバイオロジー・ラボ",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Xenobiology_Lab",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "terrarium",
+      "title": "テラリウム",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Empty_Terrarium",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "gateway-chambers",
+      "title": "Gateway Chamber",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Gateway_Chamber",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "planetary-cores",
+      "title": "惑星コア",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Gateway_Engine",
+      "last_verified": null,
+      "summary": ""
+    },
+    {
+      "slug": "unidentified-satellite",
+      "title": "Unidentified Satellite",
+      "category": "world",
+      "status": "planned",
+      "source": "https://astroneer.wiki.gg/wiki/Unidentified_Satellite",
+      "last_verified": null,
+      "summary": ""
+    }
+  ]
+}

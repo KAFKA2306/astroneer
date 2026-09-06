@@ -1,284 +1,69 @@
 <!doctype html>
-<html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>ASTRONEER Galastropod 日本語攻略</title>
-  <meta name="description" content="ASTRONEER の Xenobiology Lab と Galastropod 7種を、日本語で順番に攻略できるガイド。">
-  <style>
-    :root{
-      color-scheme:dark;
-      --bg:#0a0f1a;--panel:#121a28;--panel2:#182234;--text:#eef5ff;--muted:#aab8cc;
-      --line:#2a3a52;--accent:#66d9ff;--accent2:#98ffcf;--warn:#ffd166;
-      --max:980px;
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{margin:0;background:linear-gradient(180deg,#08101b 0%,#0d1420 100%);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;line-height:1.72}
-    a{color:var(--accent)}
-    header,main,footer{width:min(var(--max),calc(100% - 32px));margin:auto}
-    header{padding:56px 0 28px}
-    h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;margin:0 0 14px}
-    h2{margin:44px 0 16px;padding-bottom:8px;border-bottom:1px solid var(--line)}
-    h3{margin:28px 0 10px}
-    p{margin:10px 0}
-    .lead{font-size:1.1rem;color:#dce9f8}
-    .note,.spoiler{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
-    .spoiler{border-color:#705b2b;background:#1d1a10}
-    nav{margin:24px 0;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px 20px}
-    nav ol{columns:2;gap:28px;padding-left:24px}
-    nav li{break-inside:avoid;margin:5px 0}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
-    .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px}
-    .card strong{color:var(--accent2)}
-    .facts{display:grid;grid-template-columns:150px 1fr;gap:7px 14px;margin:14px 0}
-    .facts dt{color:var(--muted)}
-    .facts dd{margin:0}
-    ul,ol{padding-left:1.45rem}
-    code{background:#0b1220;border:1px solid var(--line);padding:.1em .35em;border-radius:6px}
-    table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
-    th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
-    th{background:var(--panel2)}
-    .source-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
-    .source-links a{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:6px 11px;text-decoration:none;background:#0e1724}
-    .small{font-size:.92rem;color:var(--muted)}
-    footer{padding:48px 0 60px;color:var(--muted)}
-    @media(max-width:680px){
-      nav ol{columns:1}
-      .facts{grid-template-columns:1fr}
-      table{font-size:.92rem}
-    }
-  </style>
-</head>
-<body>
-<header>
-  <p class="small">ASTRONEER / Xenobiology / Galastropods</p>
-  <h1>Galastropod 日本語攻略</h1>
-  <p class="lead">ゼノバイオロジー・ラボの開始から、7匹の宇宙カタツムリ回収、テラリウム作成、能力の使い方までを順番に追える1ページ攻略です。</p>
-  <div class="spoiler"><strong>ネタバレ注意：</strong> Xenobiology 系ミッションの進行、必要素材、各 Galastropod の能力を掲載しています。</div>
-
-  <nav aria-label="目次">
-    <strong>目次</strong>
-    <ol>
-      <li><a href="#start">開始方法</a></li>
-      <li><a href="#sylvie">Sylvie / Sylva</a></li>
-      <li><a href="#usagi">Usagi / Desolo</a></li>
-      <li><a href="#stilgar">Stilgar / Calidor</a></li>
-      <li><a href="#princess">Princess / Vesania</a></li>
-      <li><a href="#rogal">Rogal / Novus</a></li>
-      <li><a href="#bestefar">Bestefar / Glacio</a></li>
-      <li><a href="#enoki">Enoki / Atrox</a></li>
-      <li><a href="#complete">ミッション完了</a></li>
-      <li><a href="#feeding">餌と能力</a></li>
-    </ol>
-  </nav>
-</header>
-
-<main>
-  <section id="start">
-    <h2>1. 開始方法</h2>
-    <ol>
-      <li>ミッション <strong>Bait &amp; Switch</strong> を進め、<strong>Sphalerite（閃亜鉛鉱）×3</strong> を集める。</li>
-      <li>報酬の <strong>Strange Object</strong> を受け取る。</li>
-      <li>Sylva の安全な地表に設置して起動し、<strong>Xenobiology Lab</strong> を出現させる。出現時には周辺にデブリも生成されるため、拠点の密集地から少し離して置く。</li>
-      <li>ラボ周辺の Oxygenator を取り付ける。</li>
-      <li>ラボへ電力を供給する。</li>
-      <li><strong>Data Log</strong> を操作し、追跡機能を有効化する。</li>
-    </ol>
-    <div class="note">
-      ラボは Galastropod の検証にも使います。捕獲後は各個体をラボの指定スロットに取り付けて解析し、次の追跡ミッションを解放していきます。進行中には追加電力に加え、Signal Boost で EXO Chip ×1、Overcharged で EXO Chip ×2、合計3個が要求されます。
-    </div>
-    <div class="source-links">
-      <a href="https://astroneer.wiki.gg/wiki/Xenobiology_Lab">Xenobiology Lab 公式Wiki</a>
-      <a href="https://astroneer.wiki.gg/wiki/Strange_Object">Strange Object 公式Wiki</a>
-      <a href="https://astroneer.wiki.gg/wiki/Mission">Mission 一覧</a>
-    </div>
-  </section>
-
-  <section>
-    <h2>共通の捕獲手順</h2>
-    <ol>
-      <li>対象惑星で、その種の <strong>Shell を5個スキャン</strong>する。</li>
-      <li>ミッション報酬から <strong>Empty Terrarium</strong> を受け取る。</li>
-      <li>テラリウムへ <strong>土入り Small Canister + 惑星ごとの資源 + 指定植物の Seed</strong> をセットする。</li>
-      <li>完成したテラリウムへ <strong>Small Trumpet Horn または Small Squeaker Horn</strong> を取り付けて呼び出す。</li>
-      <li>出現した Galastropod の近くで指定回数ダンスする。</li>
-      <li>十分になついたら、地面に置いたテラリウムで回収する。</li>
-      <li>ラボへ持ち帰り、検証スロットに装着する。</li>
-    </ol>
-  </section>
-
-  <section id="sylvie">
-    <h2>2. Sylvie（Sylva）</h2>
-    <dl class="facts">
-      <dt>殻の場所</dt><dd>Sylva の森林地帯</dd>
-      <dt>テラリウム</dt><dd>土 + Zinc + Bouncevine Seed</dd>
-      <dt>なつかせる</dt><dd>最初の反応後、合計で必要なダンスを行い、最後にテラリウムで回収</dd>
-      <dt>能力</dt><dd>周囲を照らす</dd>
-      <dt>好物</dt><dd>Mutant Hissbine Seed</dd>
-    </dl>
-    <p>最初に攻略する個体。暗所探索の補助になるため、序盤から連れ歩きやすいです。</p>
-    <div class="source-links">
-      <a href="https://astroneer.wiki.gg/wiki/Sylvie">Sylvie の画像・詳細</a>
-    </div>
-  </section>
-
-  <section id="usagi">
-    <h2>3. Usagi（Desolo）</h2>
-    <dl class="facts">
-      <dt>殻の場所</dt><dd>Desolo 地表の低地</dd>
-      <dt>テラリウム</dt><dd>土 + Tungsten + Daggeroot Seed</dd>
-      <dt>ダンス</dt><dd>3回</dd>
-      <dt>能力</dt><dd>コンパス上で周辺の特定の探索対象を見つけやすくする</dd>
-      <dt>好物</dt><dd>Mutant Hissbine Seed</dd>
-    </dl>
-    <div class="source-links">
-      <a href="https://astroneer.wiki.gg/wiki/Usagi">Usagi の画像・詳細</a>
-    </div>
-  </section>
-
-  <section id="stilgar">
-    <h2>4. Stilgar（Calidor）</h2>
-    <dl class="facts">
-      <dt>殻の場所</dt><dd>Calidor の洞窟。岩の突起・石筍周辺を探す</dd>
-      <dt>テラリウム</dt><dd>土 + Copper + Wheezeweed Seed</dd>
-      <dt>ダンス</dt><dd>3回</dd>
-      <dt>能力</dt><dd>酸素を継続供給し、酸素タンクやテザー網を支援する</dd>
-      <dt>好物</dt><dd>Mutant Spiny Attactus Seed / Mutant Volatile Attactus Seed</dd>
-    </dl>
-    <div class="source-links">
-      <a href="https://astroneer.wiki.gg/wiki/Stilgar">Stilgar の画像・詳細</a>
-    </div>
-  </section>
-
-  <section id="princess">
-    <h2>5. Princess（Vesania）</h2>
-    <dl class="facts">
-      <dt>殻の場所</dt><dd>Vesania の高地にある森林地帯</dd>
-      <dt>テラリウム</dt><dd>土 + Lithium + Lashleaf Seed</dd>
-      <dt>ダンス</dt><dd>3回</dd>
-      <dt>能力</dt><dd>バックパック装着中、窒息以外のダメージから保護する</dd>
-      <dt>好物</dt><dd>Mutant Cataplant Seed</dd>
-    </dl>
-    <p>危険植物が多い場所へ行く前に確保すると、その後の探索がかなり楽になります。</p>
-    <div class="source-links">
-      <a href="https://astroneer.wiki.gg/wiki/Princess">Princess の画像・詳細</a>
-    </div>
-  </section>
-
-  <section id="rogal">
-    <h2>6. Rogal（Novus）</h2>
-    <dl class="facts">
-      <dt>殻の場所</dt><dd>Novus の洞窟にある Crumbling Stone の中</dd>
-      <dt>テラリウム</dt><dd>土 + Iron + Thistlewhip Seed</dd>
-      <dt>ダンス</dt><dd>3回</dd>
-      <dt>能力</dt><dd>電力を生成する</dd>
-      <dt>好物</dt><dd>Mutant Noxious Cataplant Seed / Mutant Volatile Cataplant Seed</dd>
-    </dl>
-    <p>Crumbling Stone は操作して開けると殻を回収できます。</p>
-    <div class="source-links">
-      <a href="https://astroneer.wiki.gg/wiki/Rogal">Rogal の画像・詳細</a>
-    </div>
-  </section>
-
-  <section id="bestefar">
-    <h2>7. Bestefar（Glacio）</h2>
-    <dl class="facts">
-      <dt>殻の場所</dt><dd>Glacio の洞窟にある Ice Chunk</dd>
-      <dt>殻の出し方</dt><dd>Ice Chunk を爆破して破壊する。Dynamite が確実</dd>
-      <dt>テラリウム</dt><dd>土 + Argon + Popcoral Seed</dd>
-      <dt>ダンス</dt><dd>4回</dd>
-      <dt>能力</dt><dd>Terrain Tool 装着中、掘削幅・速度・掘削能力を強化する</dd>
-      <dt>好物</dt><dd>Mutant Boomalloon Seed</dd>
-    </dl>
-    <p>Bestefar の能力は Terrain Tool に取り付けたときに機能します。通常の Seed でも能力は発動し、好物を与えると持続時間が延びます。</p>
-    <div class="source-links">
-      <a href="https://astroneer.wiki.gg/wiki/Bestefar">Bestefar の画像・詳細</a>
-    </div>
-  </section>
-
-  <section id="enoki">
-    <h2>8. Enoki（Atrox）</h2>
-    <dl class="facts">
-      <dt>殻の場所</dt><dd>Atrox 高地の Spewflower。コンパスの Shell アイコンも利用する</dd>
-      <dt>殻の出し方</dt><dd>対象の Spewflower を掘り起こして回収</dd>
-      <dt>テラリウム</dt><dd>土 + Helium + Spinelily Seed</dd>
-      <dt>ダンス</dt><dd>4回</dd>
-      <dt>能力</dt><dd>バックパック装着中、ジャンプ力・走行速度を上げ、重量物運搬時の移動低下を軽減する</dd>
-      <dt>好物</dt><dd>Mutant Noxious Spewflower Seed / Mutant Elegant Spewflower Seed</dd>
-    </dl>
-    <p>Atrox は危険植物が多いため、餌を与えた Princess をバックパックに入れて行くと安全性が上がります。</p>
-    <div class="source-links">
-      <a href="https://astroneer.wiki.gg/wiki/Enoki">Enoki の画像・詳細</a>
-    </div>
-  </section>
-
-  <section>
-    <h2>7匹まとめ</h2>
-    <table>
-      <thead><tr><th>Galastropod</th><th>惑星</th><th>資源</th><th>Seed</th><th>主な能力</th></tr></thead>
-      <tbody>
-        <tr><td>Sylvie</td><td>Sylva</td><td>Zinc</td><td>Bouncevine</td><td>照明</td></tr>
-        <tr><td>Usagi</td><td>Desolo</td><td>Tungsten</td><td>Daggeroot</td><td>探索支援</td></tr>
-        <tr><td>Stilgar</td><td>Calidor</td><td>Copper</td><td>Wheezeweed</td><td>酸素供給</td></tr>
-        <tr><td>Princess</td><td>Vesania</td><td>Lithium</td><td>Lashleaf</td><td>ダメージ保護</td></tr>
-        <tr><td>Rogal</td><td>Novus</td><td>Iron</td><td>Thistlewhip</td><td>発電</td></tr>
-        <tr><td>Bestefar</td><td>Glacio</td><td>Argon</td><td>Popcoral</td><td>Terrain Tool 強化</td></tr>
-        <tr><td>Enoki</td><td>Atrox</td><td>Helium</td><td>Spinelily</td><td>移動強化</td></tr>
-      </tbody>
-    </table>
-    <p class="small">各テラリウムには上表に加えて土入り Small Canister が必要です。</p>
-  </section>
-
-  <section id="complete">
-    <h2>9. ミッション完了</h2>
-    <p>7匹すべてを捕獲・解析したら、まず <strong>All Together Now</strong> で Data Log から Sonic Array Hatch を開き、Xenobiology Lab 上部の Sonic Array に7匹すべてを配置します。短い歌の演出が再生されます。</p>
-    <p><strong>All Together Now</strong> の報酬は QT-RTG ×2 と Lab Suit。続く <strong>Final Entry</strong> で Data Log の新しい記録を確認し、報酬として RTG ×1 を受け取ります。</p>
-  </section>
-
-  <section id="feeding">
-    <h2>10. 餌と能力の使い方</h2>
-    <ul>
-      <li>Galastropod は Seed を食べると固有能力が有効になります。通常の Seed では <strong>10分</strong>、好物では <strong>30分</strong> 持続します。</li>
-      <li>テラリウム上部のリングは能力が有効な間は青色になります。</li>
-      <li>Princess・Bestefar・Enoki は正しい装着位置で使う必要があります。Princess と Enoki はバックパック、Bestefar は Terrain Tool。誤った位置ではリングが赤く表示されます。</li>
-      <li>使用していないときに常時餌を与え続ける必要はありません。</li>
-      <li>ミッション由来の重要アイテムを紛失した場合は、Landing Pad の Mission Log から再取得できるものがあります。</li>
-      <li>Galastropod は Gravity Globe の座席にも置けます。</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>画像・原典</h2>
-    <p>画像ファイルはこのリポジトリへ複製せず、原典へのリンクで参照します。</p>
-    <div class="grid">
-      <div class="card">
-        <strong>Steam Community</strong>
-        <p>章立ての参照元となった Galastropod Guide。スクリーンショットを確認できます。</p>
-        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2720788769">Galastropod Guide を開く</a>
-      </div>
-      <div class="card">
-        <strong>Official Astroneer Wiki</strong>
-        <p>Galastropod、Mission、Xenobiology Lab の現行仕様確認用。</p>
-        <a href="https://astroneer.wiki.gg/wiki/Galastropods">Galastropods を開く</a>
-      </div>
-      <div class="card">
-        <strong>System Era 公式</strong>
-        <p>Xenobiology Update の公式パッチノート。</p>
-        <a href="https://blog.astroneer.space/p/xenobiology-update/">Xenobiology Update を開く</a>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>編集方針</h2>
-    <p>このページは外部ガイドの本文を丸ごと転載・翻訳するものではなく、同じ攻略順序と必要情報を日本語で独自に整理したものです。仕様確認は Official Astroneer Wiki と System Era の情報を優先します。</p>
-    <p class="small">最終確認: 2026-09-06</p>
-  </section>
-</main>
-
-<footer>
-  <p>ASTRONEER は System Era Softworks の商標・著作物です。このサイトは非公式の日本語攻略ページです。</p>
-</footer>
-</body>
-</html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ASTRONEER 日本語Wiki</title><meta name="description" content="ASTRONEERの日本語攻略Wiki。"><style>:root{color-scheme:dark;--bg:#0a0f1a;--panel:#121a28;--panel2:#182234;--text:#eef5ff;--muted:#aab8cc;--line:#2a3a52;--accent:#66d9ff;--ok:#98ffcf;--warn:#ffd166;--max:1080px}
+*{box-sizing:border-box}body{margin:0;background:#0a0f1a;color:var(--text);font-family:system-ui,-apple-system,"Segoe UI","Noto Sans JP",sans-serif;line-height:1.65}a{color:var(--accent)}header,main,footer{width:min(var(--max),calc(100% - 32px));margin:auto}header{padding:46px 0 24px}h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.1;margin:.2em 0}h2{margin-top:36px}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:16px;text-decoration:none;color:var(--text)}.card:hover{border-color:var(--accent)}.count{color:var(--muted);font-size:.9rem}.pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 9px;font-size:.82rem}.implemented{color:var(--ok)}.planned{color:var(--warn)}input{width:100%;font:inherit;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--panel);color:var(--text)}ul.clean{list-style:none;padding:0}ul.clean li{padding:10px 0;border-bottom:1px solid var(--line)}nav{margin:12px 0 24px}footer{padding:50px 0;color:var(--muted)}@media(max-width:600px){header,main,footer{width:min(100% - 22px,var(--max))}}</style></head>
+<body><header><p class="muted">ASTRONEER 日本語Wiki</p><h1>ASTRONEER 日本語Wiki</h1><p>攻略、設備、資源、惑星、ミッションを日本語で横断できる静的Wikiです。</p></header>
+<main><h2>カテゴリ</h2><div class="grid"><a class="card" href="category/systems/"><strong>ゲームシステム</strong><p>製造、研究、電力、自動化、操作などの基本システム。</p><span class="count">0 / 11 記事収録</span></a>
+<a class="card" href="category/items/"><strong>アイテム</strong><p>資源、設備、乗り物、電源、保管、ツール。</p><span class="count">0 / 26 記事収録</span></a>
+<a class="card" href="category/player/"><strong>プレイヤー</strong><p>バックパック、地形ツール、酸素、死亡、外見。</p><span class="count">0 / 5 記事収録</span></a>
+<a class="card" href="category/world/"><strong>ワールド・進行</strong><p>惑星、ミッション、Gateway、Xenobiology、Galastropods。</p><span class="count">1 / 16 記事収録</span></a></div>
+<h2>記事を探す</h2><input id="search" type="search" placeholder="例: トラクター / 自動アーム / Sylva" aria-label="記事検索">
+<ul id="articles" class="clean"><li data-search="galastropod 日本語攻略 galastropods"><a href="wiki/galastropods/">Galastropod 日本語攻略</a> <span class="pill implemented">収録済み</span></li>
+<li data-search="製造 crafting"><span>製造</span> <span class="pill planned">未収録</span></li>
+<li data-search="研究 research"><span>研究</span> <span class="pill planned">未収録</span></li>
+<li data-search="電力 power"><span>電力</span> <span class="pill planned">未収録</span></li>
+<li data-search="アイテムサイズ item-size"><span>アイテムサイズ</span> <span class="pill planned">未収録</span></li>
+<li data-search="スロット slots"><span>スロット</span> <span class="pill planned">未収録</span></li>
+<li data-search="危険源 hazards"><span>危険源</span> <span class="pill planned">未収録</span></li>
+<li data-search="クリエイティブモード creative-mode"><span>クリエイティブモード</span> <span class="pill planned">未収録</span></li>
+<li data-search="自動化 automation"><span>自動化</span> <span class="pill planned">未収録</span></li>
+<li data-search="地形 terrain"><span>地形</span> <span class="pill planned">未収録</span></li>
+<li data-search="操作 controls"><span>操作</span> <span class="pill planned">未収録</span></li>
+<li data-search="マルチプレイヤー multiplayer"><span>マルチプレイヤー</span> <span class="pill planned">未収録</span></li>
+<li data-search="バックパック backpack"><span>バックパック</span> <span class="pill planned">未収録</span></li>
+<li data-search="地形ツール terrain-tool"><span>地形ツール</span> <span class="pill planned">未収録</span></li>
+<li data-search="酸素 oxygen"><span>酸素</span> <span class="pill planned">未収録</span></li>
+<li data-search="死亡 death"><span>死亡</span> <span class="pill planned">未収録</span></li>
+<li data-search="カスタマイズ customization"><span>カスタマイズ</span> <span class="pill planned">未収録</span></li>
+<li data-search="資源 resources"><span>資源</span> <span class="pill planned">未収録</span></li>
+<li data-search="モジュール modules"><span>モジュール</span> <span class="pill planned">未収録</span></li>
+<li data-search="プリンター printers"><span>プリンター</span> <span class="pill planned">未収録</span></li>
+<li data-search="溶鉱炉 smelting-furnace"><span>溶鉱炉</span> <span class="pill planned">未収録</span></li>
+<li data-search="土砂遠心分離機 soil-centrifuge"><span>土砂遠心分離機</span> <span class="pill planned">未収録</span></li>
+<li data-search="化学実験室 chemistry-lab"><span>化学実験室</span> <span class="pill planned">未収録</span></li>
+<li data-search="大気凝縮装置 atmospheric-condenser"><span>大気凝縮装置</span> <span class="pill planned">未収録</span></li>
+<li data-search="研究分析台 research-chamber"><span>研究分析台</span> <span class="pill planned">未収録</span></li>
+<li data-search="交易プラットフォーム trade-platform"><span>交易プラットフォーム</span> <span class="pill planned">未収録</span></li>
+<li data-search="シュレッダー shredders"><span>シュレッダー</span> <span class="pill planned">未収録</span></li>
+<li data-search="自動抽出装置 auto-extractor"><span>自動抽出装置</span> <span class="pill planned">未収録</span></li>
+<li data-search="自動アーム auto-arm"><span>自動アーム</span> <span class="pill planned">未収録</span></li>
+<li data-search="プラットフォーム platforms"><span>プラットフォーム</span> <span class="pill planned">未収録</span></li>
+<li data-search="ストレージ storage"><span>ストレージ</span> <span class="pill planned">未収録</span></li>
+<li data-search="トラクター tractor"><span>トラクター</span> <span class="pill planned">未収録</span></li>
+<li data-search="トレーラー trailer"><span>トレーラー</span> <span class="pill planned">未収録</span></li>
+<li data-search="バギー buggy"><span>バギー</span> <span class="pill planned">未収録</span></li>
+<li data-search="中型ローバー medium-rover"><span>中型ローバー</span> <span class="pill planned">未収録</span></li>
+<li data-search="大型ローバー large-rover"><span>大型ローバー</span> <span class="pill planned">未収録</span></li>
+<li data-search="シャトル shuttles"><span>シャトル</span> <span class="pill planned">未収録</span></li>
+<li data-search="バッテリー batteries"><span>バッテリー</span> <span class="pill planned">未収録</span></li>
+<li data-search="発電機 generators"><span>発電機</span> <span class="pill planned">未収録</span></li>
+<li data-search="太陽光発電 solar"><span>太陽光発電</span> <span class="pill planned">未収録</span></li>
+<li data-search="風力発電 wind"><span>風力発電</span> <span class="pill planned">未収録</span></li>
+<li data-search="キャニスター canisters"><span>キャニスター</span> <span class="pill planned">未収録</span></li>
+<li data-search="消耗品 consumables"><span>消耗品</span> <span class="pill planned">未収録</span></li>
+<li data-search="惑星 planets"><span>惑星</span> <span class="pill planned">未収録</span></li>
+<li data-search="sylva sylva"><span>Sylva</span> <span class="pill planned">未収録</span></li>
+<li data-search="desolo desolo"><span>Desolo</span> <span class="pill planned">未収録</span></li>
+<li data-search="calidor calidor"><span>Calidor</span> <span class="pill planned">未収録</span></li>
+<li data-search="vesania vesania"><span>Vesania</span> <span class="pill planned">未収録</span></li>
+<li data-search="novus novus"><span>Novus</span> <span class="pill planned">未収録</span></li>
+<li data-search="glacio glacio"><span>Glacio</span> <span class="pill planned">未収録</span></li>
+<li data-search="atrox atrox"><span>Atrox</span> <span class="pill planned">未収録</span></li>
+<li data-search="ミッション missions"><span>ミッション</span> <span class="pill planned">未収録</span></li>
+<li data-search="実績 achievements"><span>実績</span> <span class="pill planned">未収録</span></li>
+<li data-search="ゼノバイオロジー・ラボ xenobiology-lab"><span>ゼノバイオロジー・ラボ</span> <span class="pill planned">未収録</span></li>
+<li data-search="テラリウム terrarium"><span>テラリウム</span> <span class="pill planned">未収録</span></li>
+<li data-search="gateway chamber gateway-chambers"><span>Gateway Chamber</span> <span class="pill planned">未収録</span></li>
+<li data-search="惑星コア planetary-cores"><span>惑星コア</span> <span class="pill planned">未収録</span></li>
+<li data-search="unidentified satellite unidentified-satellite"><span>Unidentified Satellite</span> <span class="pill planned">未収録</span></li></ul>
+<script>const q=document.getElementById("search");const rows=[...document.querySelectorAll("#articles li")];q.addEventListener("input",()=>{const s=q.value.trim().toLowerCase();for(const r of rows)r.hidden=s&&!r.dataset.search.includes(s)});</script>
+</main><footer>情報は各記事の参照元と最終確認日を基準に管理します。</footer></body></html>
