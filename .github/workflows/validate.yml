@@ -19,11 +19,16 @@ jobs:
           from html.parser import HTMLParser
           from pathlib import Path
 
-          path = Path("index.html")
-          if not path.exists():
-              raise SystemExit("index.html is missing")
+          page = Path("io/index.html")
+          if not page.exists():
+              raise SystemExit("io/index.html is missing")
 
-          html = path.read_text(encoding="utf-8")
+          readme = Path("README.md").read_text(encoding="utf-8")
+          expected_url = "https://kafka2306.github.io/astroneer/io/"
+          if readme.splitlines()[0].strip() != expected_url:
+              raise SystemExit("README first line must be the production /io/ URL")
+
+          html = page.read_text(encoding="utf-8")
           required = [
               'lang="ja"',
               'id="start"',
@@ -46,11 +51,19 @@ jobs:
 
           Parser().feed(html)
 
-          assets = list(Path(".").rglob("*.png")) + list(Path(".").rglob("*.jpg")) + list(Path(".").rglob("*.jpeg")) + list(Path(".").rglob("*.webp"))
+          assets = (
+              list(Path(".").rglob("*.png"))
+              + list(Path(".").rglob("*.jpg"))
+              + list(Path(".").rglob("*.jpeg"))
+              + list(Path(".").rglob("*.webp"))
+          )
           if assets:
               raise SystemExit(f"image files must stay external links: {assets}")
 
           if html.count("astroneer.wiki.gg/wiki/") < 7:
               raise SystemExit("official wiki source links are incomplete")
 
-          print("Japanese guide structure and external-image policy are valid.")
+          if Path("index.html").exists():
+              raise SystemExit("root index.html must not duplicate the /io/ canonical page")
+
+          print("Pages /io/ guide structure is valid.")
