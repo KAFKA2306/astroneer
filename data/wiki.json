@@ -181,235 +181,235 @@
       "slug": "resources",
       "title": "資源",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Resources",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "製造・研究・燃料・交易に使う素材の総称です。天然資源、精製資源、複合資源、大気資源などに分かれます。"
     },
     {
       "slug": "modules",
       "title": "モジュール",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Modules",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "基地で製造・研究・精製・交易などを行う機械類です。"
     },
     {
       "slug": "printers",
       "title": "プリンター",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Printers",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "資源を投入してアイテムや設備を製造する装置群です。"
     },
     {
       "slug": "smelting-furnace",
       "title": "溶鉱炉",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Smelting_Furnace",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "採掘した原料資源を精製資源へ変換する製造モジュールです。"
     },
     {
       "slug": "soil-centrifuge",
       "title": "土砂遠心分離機",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Soil_Centrifuge",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Terrain Tool で集めた Soil から基本資源を抽出する製造モジュールです。"
     },
     {
       "slug": "chemistry-lab",
       "title": "化学実験室",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Chemistry_Lab",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "複数資源と必要に応じて大気資源を組み合わせ、Composite Resource を作るモジュールです。"
     },
     {
       "slug": "atmospheric-condenser",
       "title": "大気凝縮装置",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Atmospheric_Condenser",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "惑星の大気から Chemistry Lab などで使う Gas Resource を採取するモジュールです。"
     },
     {
       "slug": "research-chamber",
       "title": "研究分析台",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Research_Chamber",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Research Item、Research Sample、一部Resourceを処理して Bytes を得るモジュールです。"
     },
     {
       "slug": "trade-platform",
       "title": "交易プラットフォーム",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Trade_Platform",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Scrap や Astronium を使って資源・アイテムを交換する交易モジュールです。"
     },
     {
       "slug": "shredders",
       "title": "シュレッダー",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Shredders",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "不要なアイテムやDebrisを処理し、Trade Platformで使える Scrap に変える設備群です。"
     },
     {
       "slug": "auto-extractor",
       "title": "自動抽出装置",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Auto_Extractor",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "資源鉱床へ設置し、継続的にResource Nuggetを抽出する自動採掘装置です。"
     },
     {
       "slug": "auto-arm",
       "title": "自動アーム",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Auto_Arm",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Tier 1アイテムを入力範囲から拾い、出力範囲の空きスロットへ自動搬送します。"
     },
     {
       "slug": "platforms",
       "title": "プラットフォーム",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Platforms",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "基地設備、ストレージ、電源などを載せ、電力ネットワークへ接続する土台です。"
     },
     {
       "slug": "storage",
       "title": "ストレージ",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Storages",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "資源や小型アイテムを多数保持し、基地・車両・自動化の入出力を整理する装備群です。"
     },
     {
       "slug": "tractor",
       "title": "トラクター",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Tractor",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "序盤に作りやすい小型Roverで、探索やTrailer牽引に使います。"
     },
     {
       "slug": "trailer",
       "title": "トレーラー",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Trailer",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Tractorなどへ連結し、運搬スロットを追加する小型車両です。"
     },
     {
       "slug": "buggy",
       "title": "バギー",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Buggy",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "地表を素早く移動する軽量Roverです。"
     },
     {
       "slug": "medium-rover",
       "title": "中型ローバー",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Medium_Rover",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Tractorより多くの設備やStorageを載せられる中型Roverです。"
     },
     {
       "slug": "large-rover",
       "title": "大型ローバー",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Large_Rover",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "多数の大型スロットを持ち、採掘・輸送・移動基地として使える大型Roverです。"
     },
     {
       "slug": "shuttles",
       "title": "シャトル",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Shuttles",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "惑星や衛星の間を移動する宇宙船です。"
     },
     {
       "slug": "batteries",
       "title": "バッテリー",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Batteries",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "余剰電力を蓄え、発電量が不足したときにネットワークへ戻す蓄電装置です。"
     },
     {
       "slug": "generators",
       "title": "発電機",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Generators",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "燃料Resourceを消費して安定した電力を作る発電装置です。"
     },
     {
       "slug": "solar",
       "title": "太陽光発電",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Solar_Panels",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "日光が当たっている間に電力を生成する再生可能電源です。"
     },
     {
       "slug": "wind",
       "title": "風力発電",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Wind_Turbines",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "風が吹いている間に電力を生成する再生可能電源です。"
     },
     {
       "slug": "canisters",
       "title": "キャニスター",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Canisters",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Soil、Resource、Gasなどをまとめて保持・輸送する容器群です。"
     },
     {
       "slug": "consumables",
       "title": "消耗品",
       "category": "items",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Consumables",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "使用回数や燃料を消費して効果を発揮するアイテム群です。"
     },
     {
       "slug": "planets",
@@ -545,6 +545,42 @@
       "source": "https://astroneer.wiki.gg/wiki/Unidentified_Satellite",
       "last_verified": null,
       "summary": ""
+    },
+    {
+      "slug": "widgets",
+      "title": "Widgets",
+      "category": "items",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Widgets",
+      "last_verified": "2026-09-06",
+      "summary": "バックパックに保持・装着して、発電、照明、酸素、移動などを補助する小型アイテム群です。"
+    },
+    {
+      "slug": "augments",
+      "title": "Augments",
+      "category": "items",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Augments",
+      "last_verified": "2026-09-06",
+      "summary": "Terrain Tool に装着し、掘削・整地などの挙動を変更する拡張アイテムです。"
+    },
+    {
+      "slug": "tools",
+      "title": "Tools",
+      "category": "items",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Tools",
+      "last_verified": "2026-09-06",
+      "summary": "プレイヤーが手動で使い、地形編集、掘削、牽引など特定の作業を行う道具です。"
+    },
+    {
+      "slug": "vehicles",
+      "title": "Vehicles",
+      "category": "items",
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Vehicles",
+      "last_verified": "2026-09-06",
+      "summary": "資源・Research Item の輸送、地表探索、惑星間移動に使う乗り物の総称です。"
     }
   ]
 }
