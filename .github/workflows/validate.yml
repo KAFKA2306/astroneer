@@ -15,3 +15,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Enforce complete wiki
         run: python scripts/audit_wiki.py --strict
+
+  design-conformance:
+    uses: KAFKA2306/design/.github/workflows/conformance.yml@e5163339966b6c89f62580d917634ed80b2acb25
