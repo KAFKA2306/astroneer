@@ -5,7 +5,9 @@ on:
     branches: [main]
     paths:
       - "io/**"
-      - "data/wiki.json"
+      - "data/**"
+      - "scripts/audit_wiki.py"
+      - "scripts/verify_production.py"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -26,6 +28,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Enforce complete wiki
+        run: python scripts/audit_wiki.py --strict
       - name: Stage site
         run: |
           mkdir -p _site
