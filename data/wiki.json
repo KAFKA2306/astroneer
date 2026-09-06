@@ -37,145 +37,145 @@
       "slug": "crafting",
       "title": "製造",
       "category": "systems",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Crafting",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "資源を使って、バックパックや各種プリンターから装備・設備・乗り物を作る基本システムです。"
     },
     {
       "slug": "research",
       "title": "研究",
       "category": "systems",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Research",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "探索で得た Research Sample や Research Item から Bytes を得て、設計図を解放する進行システムです。"
     },
     {
       "slug": "power",
       "title": "電力",
       "category": "systems",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Power",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "発電機・太陽光・風力などで作った電力をネットワークへ供給し、設備や車両を動かします。"
     },
     {
       "slug": "item-size",
       "title": "アイテムサイズ",
       "category": "systems",
-      "status": "planned",
-      "source": "https://astroneer.wiki.gg/wiki/Item_Size",
-      "last_verified": null,
-      "summary": ""
+      "status": "implemented",
+      "source": "https://astroneer.wiki.gg/wiki/Tiers",
+      "last_verified": "2026-09-06",
+      "summary": "アイテムとスロットには大きさの段階があり、収納・装着・印刷に必要な場所を決めます。"
     },
     {
       "slug": "slots",
       "title": "スロット",
       "category": "systems",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Attachment_Slot",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "バックパック、プラットフォーム、車両、モジュールには、アイテムを装着する Attachment Slot があります。"
     },
     {
       "slug": "hazards",
       "title": "危険源",
       "category": "systems",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Hazards",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "危険植物、落下、酸素切れ、爆発など、探索中にプレイヤーを負傷・死亡させる要因です。"
     },
     {
       "slug": "creative-mode",
       "title": "クリエイティブモード",
       "category": "systems",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Creative_Mode",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "資源集めや Bytes の進行条件に縛られず、建築・配置・実験を行うためのモードです。"
     },
     {
       "slug": "automation",
       "title": "自動化",
       "category": "systems",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Automation",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Auto Arm、センサー、リピーター、ストレージなどを組み合わせ、資源移動や設備操作を自動化します。"
     },
     {
       "slug": "terrain",
       "title": "地形",
       "category": "systems",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Terrain",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "惑星表面と地下を構成する掘削可能な地形です。硬さによって Terrain Tool で掘れる条件が変わります。"
     },
     {
       "slug": "controls",
       "title": "操作",
       "category": "systems",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Controls",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "移動、Terrain Tool、バックパック、車両などの入力はプラットフォームと入力機器で異なります。"
     },
     {
       "slug": "multiplayer",
       "title": "マルチプレイヤー",
       "category": "systems",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Multiplayer",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "他のプレイヤーと同じセーブ世界を探索・建築できる協力プレイ機能です。"
     },
     {
       "slug": "backpack",
       "title": "バックパック",
       "category": "player",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Backpack",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "プレイヤーが常時装備する携行装置で、アイテム保持、内蔵プリンター、電力・酸素関連の機能をまとめています。"
     },
     {
       "slug": "terrain-tool",
       "title": "地形ツール",
       "category": "player",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Terrain_Tool",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "地形の掘削・追加・整地と、地形中の資源回収を行う標準装備です。"
     },
     {
       "slug": "oxygen",
       "title": "酸素",
       "category": "player",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Oxygen",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "プレイヤーの生存に必要です。基地、Oxygenator、Tether、車両などを使って探索範囲へ供給します。"
     },
     {
       "slug": "death",
       "title": "死亡",
       "category": "player",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Death",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "酸素切れ、落下、危険植物などで死亡すると、所持品を回収する必要が生じます。"
     },
     {
       "slug": "customization",
       "title": "カスタマイズ",
       "category": "player",
-      "status": "planned",
+      "status": "implemented",
       "source": "https://astroneer.wiki.gg/wiki/Customization",
-      "last_verified": null,
-      "summary": ""
+      "last_verified": "2026-09-06",
+      "summary": "Suit、Palette、Visor、Hat、Mask、Emote など、Astroneer の外見や表現を変更する機能です。"
     },
     {
       "slug": "resources",
