@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Audit wiki structure and coverage
-        run: python scripts/audit_wiki.py
+      - name: Enforce complete wiki
+        run: python scripts/audit_wiki.py --strict
